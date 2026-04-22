@@ -1,0 +1,27 @@
+# Unity
+Library/
+Temp/
+Builds/
+Build/
+Logs/
+UserSettings/
+
+# IDE
+.vscode/
+.idea/
+*.sln
+*.csproj
+
+# OS
+.DS_Store
+Thumbs.db
+
+# User-specific
+.vs/
+*.swp
+*.swo
+*~
+
+# Build results
+bin/
+obj/
