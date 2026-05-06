@@ -25,3 +25,4 @@ Thumbs.db
 # Build results
 bin/
 obj/
+Assets/Plugins/CW/LeanGUI/examples/
