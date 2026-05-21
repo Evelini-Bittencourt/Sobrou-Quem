@@ -1,0 +1,32 @@
+using UnityEditor;
+using UnityEngine;
+
+[CustomEditor(typeof(#OBJECT_INSPECTED#), true), CanEditMultipleObjects]
+public class #SCRIPTNAME# : Editor
+{
+    private #OBJECT_INSPECTED#[] m_objs;
+
+    public void OnEnable()
+    {
+        //Multi object management
+        Object[] target_cast = targets;
+        m_objs = new #OBJECT_INSPECTED#[targets.Length];
+        int i = 0;
+        foreach (Object o in targets) {
+            m_objs[i] = (#OBJECT_INSPECTED#) o;
+            i++;
+        }
+    }
+
+    public override void OnInspectorGUI()
+    {
+        DrawDefaultInspector();
+        EditorGUILayout.Separator();
+        if(GUILayout.Button("Action")) {
+            foreach(#OBJECT_INSPECTED# o in m_objs) {
+                //o.Action();
+            }
+        }
+    }
+}
+

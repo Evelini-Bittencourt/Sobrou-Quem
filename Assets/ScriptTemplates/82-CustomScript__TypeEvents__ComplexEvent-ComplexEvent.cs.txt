@@ -1,0 +1,13 @@
+namespace m21cerutti.ClapClapEvent.CustomEvents {
+	using Runtime;
+
+	using UnityEngine;
+	
+	public class #TYPE#
+	{
+	    // To fill...
+	}
+
+	[CreateAssetMenu(fileName = "#SCRIPTNAME#", menuName = "Events/#SCRIPTNAME#")]
+	public class #SCRIPTNAME# : ParametrisedEvent<#TYPE#> { }
+}
