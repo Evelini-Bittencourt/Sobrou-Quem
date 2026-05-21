@@ -1,0 +1,66 @@
+namespace m21cerutti.ClapClapEvent.CustomEvents.Editor {
+	using System.Collections.Generic;
+	using System.Linq;
+
+	using BUS.Editor;
+
+	using Runtime;
+
+	using UnityEditor;
+
+	using UnityEngine;
+
+	[CustomEditor(typeof(#OBJECT_INSPECTED#), true), CanEditMultipleObjects]
+	public class #SCRIPTNAME# : Editor {
+		private SerializedProperty m_listeners;
+
+		// Temporary
+		private #EVENTNAME# m_toAdd;
+
+		public void OnEnable() {
+			m_listeners = serializedObject.FindProperty("m_listeners");
+			m_toAdd = null;
+		}
+
+		public override void OnInspectorGUI() {
+			serializedObject.Update();
+			if (!serializedObject.isEditingMultipleObjects) { // Edition single
+				EditorGUILayout.PropertyField(m_listeners);
+			} else {
+				EditorGUILayout.LabelField("Listeners are not editable with multiple objects editing.");
+			}
+
+			FuncEditor.DrawUILine(Color.gray);
+
+			if (GUILayout.Button("Add event")) {
+				int control_id = GUIUtility.GetControlID(FocusType.Passive);
+				EditorGUIUtility.ShowObjectPicker<Camera>(null, false, "t:" + nameof(#EVENTNAME#), control_id);
+			}
+			// Object picker command
+			string command_name = Event.current.commandName;
+			if (command_name == "ObjectSelectorUpdated") {
+				m_toAdd = EditorGUIUtility.GetObjectPickerObject() as #EVENTNAME#;
+			} else if (m_toAdd != null && command_name == "ObjectSelectorClosed") {
+				foreach (Object receiver in targets) {
+					Debug.Log("Added in " + receiver);
+					((#OBJECT_INSPECTED#) receiver).AddPersistentEventHandler(m_toAdd);
+				}
+				m_toAdd = null;
+			}
+
+			if (GUILayout.Button("Auto-register all")) {
+				int i = 0;
+				foreach (List<ParamEventListener<ParametrisedEvent<#TYPE#>, #TYPE#>> lists in m_listeners
+					.GetTargetsField<List<ParamEventListener<ParametrisedEvent<#TYPE#>, #TYPE#>>>()) {
+					MonoBehaviour script = m_listeners.serializedObject.targetObjects[i] as MonoBehaviour;
+					foreach (ParamEventListener<ParametrisedEvent<#TYPE#>, #TYPE#> e in lists.Where(e => e.m_ev != null)) {
+						e.m_func.AutoReferenceEventUnity(script, e.m_ev.GetEventName());
+					}
+					i++;
+				}
+			}
+
+			serializedObject.ApplyModifiedProperties();
+		}
+	}
+}
