@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b640d5f5d80220f41aea7329310869b0
+guid: 6595d20ea131b284588bfb1555bd28ad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5296813862801728638
-    second: abelha_0
+      213: 7179703450139480554
+    second: Abelha_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: abelha_0
+      name: Abelha_0
       rect:
         serializedVersion: 2
         x: 9
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28b96520bdfed76b0800000000000000
-      internalID: -5296813862801728638
+      spriteID: ae1d53a8f3e63a360800000000000000
+      internalID: 7179703450139480554
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      abelha_0: -5296813862801728638
+      Abelha_0: 7179703450139480554
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
