@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6595d20ea131b284588bfb1555bd28ad
+guid: 09648b909e827c845892f66fe95e3850
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7179703450139480554
-    second: Abelha_0
+      213: -2277860006967793909
+    second: tabuleiro 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Abelha_0
+      name: tabuleiro 1_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 2
-        width: 68
-        height: 47
+        x: 253
+        y: 101
+        width: 1032
+        height: 861
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae1d53a8f3e63a360800000000000000
-      internalID: 7179703450139480554
+      spriteID: b07ad9c646a6360e0800000000000000
+      internalID: -2277860006967793909
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Abelha_0: 7179703450139480554
+      tabuleiro 1_0: -2277860006967793909
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

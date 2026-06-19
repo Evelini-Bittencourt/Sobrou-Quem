@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0577997cbe4bdc0428f91b1f3daf501e
+guid: a3cb109247ad40a44a805ac6ec781659
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8500431288943475745
-    second: peca4_0
+      213: 6978098356892758718
+    second: reset_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: peca4_0
+      name: reset_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 57
-        width: 902
-        height: 906
+        x: 0
+        y: 0
+        width: 44
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12c7717583997f570800000000000000
-      internalID: 8500431288943475745
+      spriteID: eb2745aeb7f27d060800000000000000
+      internalID: 6978098356892758718
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      peca4_0: 8500431288943475745
+      reset_0: 6978098356892758718
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
