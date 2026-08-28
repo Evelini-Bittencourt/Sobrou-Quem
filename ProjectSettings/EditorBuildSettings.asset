@@ -6,28 +6,28 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/tela-configuracao.unity
+    path: Assets/Scenes/8-tela-configuracao.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/tela-inicio.unity
+    path: Assets/Scenes/1-tela-inicio.unity
     guid: ec8ed1abe74a75c42a133948988f5586
   - enabled: 1
-    path: Assets/Scenes/tela-selecao-nivel.unity
+    path: Assets/Scenes/2-tela-selecao-nivel.unity
     guid: 31d8ff64bb2128d44b82377ace482858
   - enabled: 1
-    path: Assets/Scenes/tela-fichas-facil-0.unity
+    path: Assets/Scenes/3-tela-fichas-facil-0.unity
     guid: caffd934d73d18643b727c2d2e84a4df
   - enabled: 1
-    path: Assets/Scenes/tela-fichas-facil-1.unity
+    path: Assets/Scenes/4-tela-fichas-facil-1.unity
     guid: 08ac565461a1d374792d5e367106bf1d
   - enabled: 1
-    path: Assets/Scenes/tela-tabuleiro-facil-1-drag.unity
+    path: Assets/Scenes/5-tela-tabuleiro-facil-1-drag.unity
     guid: 9605c630cd991ca48bd82e3c3b996e62
   - enabled: 1
-    path: Assets/Scenes/tela-parabens.unity
+    path: Assets/Scenes/6-tela-parabens.unity
     guid: 1c0f3468f9c953b42a13a761aeba541d
   - enabled: 1
-    path: Assets/Scenes/tela-tente-novamente.unity
+    path: Assets/Scenes/7-tela-tente-novamente.unity
     guid: 399f91ab33ef2a1488d9ecf158ceeb1d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
