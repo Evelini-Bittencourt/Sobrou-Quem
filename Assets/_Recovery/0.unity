@@ -1145,7 +1145,7 @@ GameObject:
   - component: {fileID: 474627620}
   - component: {fileID: 474627623}
   - component: {fileID: 474627622}
-  - component: {fileID: 474627621}
+  - component: {fileID: 474627624}
   m_Layer: 5
   m_Name: Snap 2
   m_TagString: Untagged
@@ -1172,19 +1172,6 @@ RectTransform:
   m_AnchoredPosition: {x: 167.6, y: 129.46}
   m_SizeDelta: {x: 315.28, y: 314.58}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &474627621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474627619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9de1488bdb8343b4395a5c602e859362, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PontoSnap
-  ocupado: 0
 --- !u!114 &474627622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1223,6 +1210,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474627619}
   m_CullTransparentMesh: 1
+--- !u!114 &474627624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474627619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e90a32b916b015a4ba5370af7fa29597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpritePontoSnap
+  ocupado: 0
 --- !u!1 &484884844
 GameObject:
   m_ObjectHideFlags: 0
@@ -1459,7 +1459,7 @@ GameObject:
   - component: {fileID: 581570204}
   - component: {fileID: 581570207}
   - component: {fileID: 581570206}
-  - component: {fileID: 581570205}
+  - component: {fileID: 581570208}
   m_Layer: 5
   m_Name: Snap 4
   m_TagString: Untagged
@@ -1486,19 +1486,6 @@ RectTransform:
   m_AnchoredPosition: {x: -168.35, y: -208.8}
   m_SizeDelta: {x: 315.28, y: 314.58}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &581570205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 581570203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9de1488bdb8343b4395a5c602e859362, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PontoSnap
-  ocupado: 0
 --- !u!114 &581570206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1537,6 +1524,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 581570203}
   m_CullTransparentMesh: 1
+--- !u!114 &581570208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581570203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e90a32b916b015a4ba5370af7fa29597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpritePontoSnap
+  ocupado: 0
 --- !u!1 &587351701
 GameObject:
   m_ObjectHideFlags: 0
@@ -1591,8 +1591,8 @@ GameObject:
   m_Component:
   - component: {fileID: 598580262}
   - component: {fileID: 598580267}
-  - component: {fileID: 598580264}
   - component: {fileID: 598580263}
+  - component: {fileID: 598580268}
   m_Layer: 0
   m_Name: peca1_0
   m_TagString: Untagged
@@ -1721,23 +1721,6 @@ PolygonCollider2D:
       - {x: -1.79, y: -4.42}
       - {x: -1.7199999, y: -4.38}
   m_UseDelaunayMesh: 1
---- !u!114 &598580264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 598580261}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fe09ff1d53e9574f923a14ec8682ac4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SnapPeca
-  pontosSnap:
-  - {fileID: 1050434183}
-  - {fileID: 474627620}
-  - {fileID: 1314822769}
-  - {fileID: 581570204}
 --- !u!212 &598580267
 SpriteRenderer:
   serializedVersion: 2
@@ -1797,6 +1780,25 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &598580268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598580261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bddb4bef8f291d4c87a8c3bb8172e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpritePecaArrastavel
+  pontosSnap:
+  - {fileID: 1050434183}
+  - {fileID: 474627620}
+  - {fileID: 1314822769}
+  - {fileID: 581570204}
+  distanciaMaximaSnap: 2
+  intervaloDuploClique: 0.4
 --- !u!1 &645652016
 GameObject:
   m_ObjectHideFlags: 0
@@ -2725,6 +2727,7 @@ GameObject:
   - component: {fileID: 1021348640}
   - component: {fileID: 1021348639}
   - component: {fileID: 1021348638}
+  - component: {fileID: 1021348642}
   m_Layer: 0
   m_Name: 'Main Camera '
   m_TagString: MainCamera
@@ -2850,6 +2853,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1021348642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021348637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56666c5a40171f54783dd416a44f42bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.Physics2DRaycaster
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &1029563235
 GameObject:
   m_ObjectHideFlags: 0
@@ -3515,7 +3534,7 @@ GameObject:
   - component: {fileID: 1050434183}
   - component: {fileID: 1050434186}
   - component: {fileID: 1050434185}
-  - component: {fileID: 1050434184}
+  - component: {fileID: 1050434187}
   m_Layer: 5
   m_Name: Snap 1
   m_TagString: Untagged
@@ -3542,19 +3561,6 @@ RectTransform:
   m_AnchoredPosition: {x: -168.35, y: 129.46}
   m_SizeDelta: {x: 315.27, y: 314.58}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1050434184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1050434182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9de1488bdb8343b4395a5c602e859362, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PontoSnap
-  ocupado: 0
 --- !u!114 &1050434185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3593,6 +3599,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050434182}
   m_CullTransparentMesh: 1
+--- !u!114 &1050434187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050434182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e90a32b916b015a4ba5370af7fa29597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpritePontoSnap
+  ocupado: 0
 --- !u!1 &1059801258
 GameObject:
   m_ObjectHideFlags: 0
@@ -4236,7 +4255,7 @@ GameObject:
   - component: {fileID: 1314822769}
   - component: {fileID: 1314822772}
   - component: {fileID: 1314822771}
-  - component: {fileID: 1314822770}
+  - component: {fileID: 1314822773}
   m_Layer: 5
   m_Name: Snap 3
   m_TagString: Untagged
@@ -4263,19 +4282,6 @@ RectTransform:
   m_AnchoredPosition: {x: 167.6, y: -208.8}
   m_SizeDelta: {x: 315.28, y: 314.58}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1314822770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1314822768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9de1488bdb8343b4395a5c602e859362, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PontoSnap
-  ocupado: 0
 --- !u!114 &1314822771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4314,6 +4320,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314822768}
   m_CullTransparentMesh: 1
+--- !u!114 &1314822773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314822768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e90a32b916b015a4ba5370af7fa29597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpritePontoSnap
+  ocupado: 0
 --- !u!1 &1352804030
 GameObject:
   m_ObjectHideFlags: 0
