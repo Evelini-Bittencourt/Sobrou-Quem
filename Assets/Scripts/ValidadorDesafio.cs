@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -23,29 +24,66 @@ public class ValidadorDesafio : MonoBehaviour
     [Header("Objetivos da Carta Atual")]
     [SerializeField] private List<MetaAnimal> metasDaCarta = new List<MetaAnimal>();
 
+    [Header("Pontos de Encaixe do Tabuleiro (Snaps)")]
+    [Tooltip("Arraste os 4 objetos Snap (Snap 1, Snap 2, Snap 3, Snap 4) para aqui")]
+    [SerializeField] private List<Transform> pontosSnap = new List<Transform>();
+
     [Header("Cenas de Transição")]
     [SerializeField] private string cenaParabens = "6-tela-parabens";
     [SerializeField] private string cenaTenteNovamente = "7-tela-tente-novamente";
 
+    [Header("Identificação da Carta")]
+    [Tooltip("Número da carta atual de 1 a 10")]
+    [SerializeField] private int numeroDaCarta = 1;
+
     public void VerificarVitoria()
     {
+        Physics2D.SyncTransforms();
+
+        // 1. REQUISITO 1: Todas as 4 peças precisam estar encaixadas no tabuleiro
+        if (!TodasPecasNoTabuleiro())
+        {
+            Debug.Log("[Validador] DERROTA: Nem todas as peças foram colocadas no tabuleiro!");
+            SceneManager.LoadScene(cenaTenteNovamente);
+            return;
+        }
+
         bool acertouTudo = true;
 
+        // 2. REQUISITO 2: Verificar as metas da carta (ex: Joaninha = 6)
         foreach (MetaAnimal meta in metasDaCarta)
         {
             int visiveis = ContarAnimaisVisiveis(meta.animal);
-            Debug.Log($"[Validador] Animal: {meta.animal} | Visíveis contados: {visiveis} | Esperado: {meta.quantidadeEsperada}");
+            Debug.Log($"[Validador] Meta {meta.animal} | Visíveis: {visiveis} | Esperado: {meta.quantidadeEsperada}");
 
             if (visiveis != meta.quantidadeEsperada)
             {
                 acertouTudo = false;
-                break;
+            }
+        }
+
+        // 3. REQUISITO 3: Garantir que NENHUM outro animal indesejado esteja visível
+        foreach (TipoAnimal tipo in Enum.GetValues(typeof(TipoAnimal)))
+        {
+            bool ehMeta = metasDaCarta.Exists(m => m.animal == tipo);
+
+            if (!ehMeta)
+            {
+                int visiveisIncorretos = ContarAnimaisVisiveis(tipo);
+                if (visiveisIncorretos > 0)
+                {
+                    Debug.Log($"[Validador] DERROTA: Animal indesejado visível: {tipo} ({visiveisIncorretos} visíveis)");
+                    acertouTudo = false;
+                }
             }
         }
 
         if (acertouTudo)
         {
             Debug.Log(">> VITORIA!");
+            // Salva que esta carta específica foi concluída
+            PlayerPrefs.SetInt("CartaConcluida_Especialista_" + numeroDaCarta, 1);
+            PlayerPrefs.Save();
             SceneManager.LoadScene(cenaParabens);
         }
         else
@@ -53,6 +91,36 @@ public class ValidadorDesafio : MonoBehaviour
             Debug.Log(">> DERROTA!");
             SceneManager.LoadScene(cenaTenteNovamente);
         }
+    }
+
+    private bool TodasPecasNoTabuleiro()
+    {
+        GameObject[] pecas = GameObject.FindGameObjectsWithTag("PecaVerde");
+
+        if (pecas.Length < 4) return false;
+
+        foreach (GameObject peca in pecas)
+        {
+            bool encaixada = false;
+
+            // Verifica se a peça está próxima de pelo menos um dos 4 pontos Snap do tabuleiro
+            foreach (Transform snap in pontosSnap)
+            {
+                if (snap != null && Vector2.Distance(peca.transform.position, snap.position) < 50f)
+                {
+                    encaixada = true;
+                    break;
+                }
+            }
+
+            // Se alguma peça verde estiver longe dos Snaps (fora do tabuleiro), falha
+            if (!encaixada)
+            {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     private int ContarAnimaisVisiveis(TipoAnimal tipo)
@@ -73,17 +141,12 @@ public class ValidadorDesafio : MonoBehaviour
             {
                 if (!peca.activeInHierarchy) continue;
 
-                // Lê o colisor que acabaste de desenhar
                 PolygonCollider2D colisorPeca = peca.GetComponent<PolygonCollider2D>();
 
-                if (colisorPeca != null)
+                if (colisorPeca != null && colisorPeca.OverlapPoint(posAnimal))
                 {
-                    // Testa se o ponto central do animal cai dentro da área verde ajustada
-                    if (colisorPeca.OverlapPoint(posAnimal))
-                    {
-                        coberto = true;
-                        break;
-                    }
+                    coberto = true;
+                    break;
                 }
             }
 

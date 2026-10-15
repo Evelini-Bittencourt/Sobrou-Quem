@@ -5007,6 +5007,11 @@ MonoBehaviour:
   metasDaCarta:
   - animal: 0
     quantidadeEsperada: 5
+  pontosSnap:
+  - {fileID: 1183264439}
+  - {fileID: 918356893}
+  - {fileID: 500927375}
+  - {fileID: 695580213}
   cenaParabens: 6-tela-parabens-facil-1
   cenaTenteNovamente: 7-tela-tente-novamente-facil-1
 --- !u!4 &1563621753
