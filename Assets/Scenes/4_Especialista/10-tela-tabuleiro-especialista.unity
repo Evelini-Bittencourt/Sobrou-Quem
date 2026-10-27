@@ -269,7 +269,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 3-tela-fichas-facil-0
+          m_StringArgument: 0-tela-fichas-especialista
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &122282867
@@ -7162,7 +7162,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 5-tela-tabuleiro-facil-1
+          m_StringArgument: 10-tela-tabuleiro-especialista
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1660057539 &9223372036854775807
