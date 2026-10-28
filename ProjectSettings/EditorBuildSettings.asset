@@ -48,17 +48,98 @@ EditorBuildSettings:
     path: Assets/Scenes/6-tela-parabens-facil-3.unity
     guid: 77f2218368505ae4c8395f3b9bbb3f45
   - enabled: 1
-    path: Assets/Scenes/4_Especialista/0-tela-fichas-especialista.unity
+    path: Assets/Scenes/4_Muito-dificil/0-tela-fichas-muito-dificil.unity
     guid: 290fce530fa013d40b56c2ee8210a703
   - enabled: 1
-    path: Assets/Scenes/4_Especialista/10-tela-tabuleiro-especialista.unity
+    path: Assets/Scenes/4_Muito-dificil/10-tela-tabuleiro-muito-dificil.unity
     guid: 0cc92893cc5b4f0488edb2e5057f55fb
   - enabled: 1
-    path: Assets/Scenes/4_Especialista/P3-tela-parabens-especialista.unity
+    path: Assets/Scenes/4_Muito-dificil/10P-tela-parabens-muito-dificil.unity
     guid: 107a5359bcc850647b83da890ec4f94f
   - enabled: 1
-    path: Assets/Scenes/4_Especialista/10TN-tela-tente-novamente-especialista.unity
+    path: Assets/Scenes/4_Muito-dificil/10TN-tela-tente-novamente-muito-dificil.unity
     guid: 84f56cc1cf6636d4e9ea0c08c57b2b0b
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/1-tela-tabuleiro-muito-dificil.unity
+    guid: 68348fd0cc75e6a4fb70534ca6a8a692
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/1TN-tela-tente-novamente-muito-dificil.unity
+    guid: 476689d9c14d1844fab360b033c56621
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/1P-tela-parabens-muito-dificil.unity
+    guid: 046d0ca31b5409040b0c9fee939294ae
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/2-tela-tabuleiro-muito-dificil.unity
+    guid: 4081426dd7a055a45b847e15e0ce7db4
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/2P-tela-parabens-muito-dificil.unity
+    guid: 691ca53a55b7f2a44ac6da955e99e79a
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/2TN-tela-tente-novamente-muito-dificil.unity
+    guid: 52bd48d781f810b4d8e10bcaa8bab1c2
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/3-tela-tabuleiro-muito-dificil.unity
+    guid: 34949e7b188d874448cd84572e5c982e
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/3P-tela-parabens-muito-dificil.unity
+    guid: 11a56b8bd0f62624ca88c8fd04a2ba68
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/3TN-tela-tente-novamente-muito-dificil.unity
+    guid: 8aaff9b4cd748c04790bd2bbfa713beb
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/4-tela-tabuleiro-muito-dificil.unity
+    guid: 85521ef2e4bcbda4aba1e68a04cac658
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/4P-tela-parabens-muito-dificil.unity
+    guid: 61e52e634e13ac941bcc934f92820c12
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/4TN-tela-tente-novamente-muito-dificil.unity
+    guid: 53d26ee73af13b548b1541549a9b1f4b
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/5-tela-tabuleiro-muito-dificil.unity
+    guid: 92998f51fb86b7943a91ffe85da351c4
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/5P-tela-parabens-muito-dificil.unity
+    guid: 368718dd0bed65d44a099fd23bf20ef8
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/5TN-tela-tente-novamente-muito-dificil.unity
+    guid: 0a7388cf3e0e899499702154a150003f
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/6-tela-tabuleiro-muito-dificil.unity
+    guid: 9c1c4d4b4f6668944a9c57153643d2ef
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/6P-tela-parabens-muito-dificil.unity
+    guid: 766215be70b2e9d4597a3ff92560add9
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/6TN-tela-tente-novamente-muito-dificil.unity
+    guid: eeb34e429da0d5a4bbcb10745e055932
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/7-tela-tabuleiro-muito-dificil.unity
+    guid: cfbde663236513c44983d67e7d94d5d6
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/7P-tela-parabens-muito-dificil.unity
+    guid: 92b2d44f909fa4c40947c2f7983a2f09
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/7TN-tela-tente-novamente-muito-dificil.unity
+    guid: 3369975b394eb034eac3f93936fb27a4
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/8-tela-tabuleiro-muito-dificil.unity
+    guid: 54fa9b264c4bd7748bbad7ad41552d8e
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/8P-tela-parabens-muito-dificil.unity
+    guid: 01d2c5877eadb2947ba64ea3bee1aed7
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/8TN-tela-tente-novamente-muito-dificil.unity
+    guid: 653c4e0c88b48374480ef770b1c28989
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/9-tela-tabuleiro-muito-dificil.unity
+    guid: e533f3452a325374591737382e02a7f9
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/9P-tela-parabens-muito-dificil.unity
+    guid: 9fff7f71229032c41bd57531abd488bb
+  - enabled: 1
+    path: Assets/Scenes/4_Muito-dificil/9TN-tela-tente-novamente-muito-dificil.unity
+    guid: f76cf3e31e6600a4597bbd013062c69a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

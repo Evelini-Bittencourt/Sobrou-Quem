@@ -2173,7 +2173,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 5-tela-tabuleiro-facil-1
+          m_StringArgument: 7-tela-tabuleiro-muito-dificil
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &170140432
@@ -2992,7 +2992,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 5-tela-tabuleiro-facil-1
+          m_StringArgument: 2-tela-tabuleiro-muito-dificil
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &259158381
@@ -7936,7 +7936,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 5-tela-tabuleiro-facil-1
+          m_StringArgument: 5-tela-tabuleiro-muito-dificil
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &631285266
@@ -9747,7 +9747,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "N\xCDVEL ESPECIALISTA"
+  m_Text: "N\xCDVEL MUITO DIF\xCDCIL"
 --- !u!222 &786071976
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9972,7 +9972,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 5-tela-tabuleiro-facil-1
+          m_StringArgument: 9-tela-tabuleiro-muito-dificil
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &827736988
@@ -11597,7 +11597,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 5-tela-tabuleiro-facil-1
+          m_StringArgument: 3-tela-tabuleiro-muito-dificil
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &982335340
@@ -13850,7 +13850,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 5-tela-tabuleiro-facil-1
+          m_StringArgument: 8-tela-tabuleiro-muito-dificil
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1118434294
@@ -15112,7 +15112,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0
-  m_Text: '1 SAPO E
+  m_Text: '1 SAPO
 
 '
 --- !u!222 &1190776075
@@ -17730,7 +17730,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 5-tela-tabuleiro-facil-1
+          m_StringArgument: 1-tela-tabuleiro-muito-dificil
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1376225500
@@ -18415,7 +18415,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 5-tela-tabuleiro-facil-1
+          m_StringArgument: 6-tela-tabuleiro-muito-dificil
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1414503720
@@ -24453,7 +24453,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 10-tela-tabuleiro-especialista
+          m_StringArgument: 10-tela-tabuleiro-muito-dificil
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1905192027
@@ -27239,7 +27239,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 5-tela-tabuleiro-facil-1
+          m_StringArgument: 4-tela-tabuleiro-muito-dificil
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &2107727912
