@@ -1060,7 +1060,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.7}
+  m_AnchoredPosition: {x: 0, y: 1.3}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &516273227
@@ -1096,7 +1096,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: ESPECIALISTA
+  m_Text: "MUITO DIF\xCDCIL"
 --- !u!222 &516273228
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1732,7 +1732,7 @@ GameObject:
   - component: {fileID: 1078614392}
   - component: {fileID: 1078614393}
   m_Layer: 5
-  m_Name: Especialista
+  m_Name: "Muito dif\xEDcil"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1871,7 +1871,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 0-tela-fichas-especialista
+          m_StringArgument: 0-tela-fichas-muito-dificil
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1138625494
@@ -2200,13 +2200,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 120
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "CADA N\xCDVEL TEM FICHAS COM DIFERENTES COMBINA\xC7\xD5ES DE BICHINHOS"
+  m_Text: "ESCOLHA POR ONDE QUER COME\xC7AR!"
 --- !u!222 &1320274277
 CanvasRenderer:
   m_ObjectHideFlags: 0
