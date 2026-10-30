@@ -233,6 +233,99 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3_Dificil/10TN-tela-tente-novamente-dificil.unity
     guid: e3769eaffd5d62146bd7b5318b9549a4
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/0-tela-fichas-medio.unity
+    guid: 889114bb3e37841489baa4dba20d091e
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/1-tela-tabuleiro-medio.unity
+    guid: 17eaa2e092b97a4469282d80b86e7ddd
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/1P-tela-parabens-medio.unity
+    guid: 34674e5d0d491104ca839343f470401d
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/1TN-tela-tente-novamente-medio.unity
+    guid: 49561ec38762d98488fcedd75af2c74f
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/2-tela-tabuleiro-medio.unity
+    guid: 274627efdca894b4b8e23c8dd1baf880
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/2P-tela-parabens-medio.unity
+    guid: 15fc1c0b4b38eee449cf2940f94e0b93
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/2TN-tela-tente-novamente-medio.unity
+    guid: eddf658ac347db94d8dcd2aa67506756
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/3-tela-tabuleiro-medio.unity
+    guid: 19356c7c8d38fa5479c66b43d54f3811
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/3P-tela-parabens-medio.unity
+    guid: b29d8501a83d67e4b91e2e2acc99f0b8
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/3TN-tela-tente-novamente-medio.unity
+    guid: 39e901b81d07c374db406baf4e3713d5
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/4-tela-tabuleiro-medio.unity
+    guid: 6628e5e8dae793349bbf1e858297fd14
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/4P-tela-parabens-medio.unity
+    guid: deaf05db598ec2e40aa7de660820bea3
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/4TN-tela-tente-novamente-medio.unity
+    guid: 1e8f421d74147ae468a19bd5e951a7af
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/5-tela-tabuleiro-medio.unity
+    guid: 9dc9c18d63dfd944788d8a19ae78ab3c
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/5P-tela-parabens-medio.unity
+    guid: b3e7020b05321fd479450c39b5dcbea0
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/5TN-tela-tente-novamente-medio.unity
+    guid: c8fc84cc2db94a644be262d2aad4e6a4
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/6-tela-tabuleiro-medio.unity
+    guid: dceea160996462f47b17979cfb68ee3c
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/6P-tela-parabens-medio.unity
+    guid: 3b7cef50174466c469591fdf2099c224
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/6TN-tela-tente-novamente-medio.unity
+    guid: b8cf062989774834cba1c1aa81b7e7e4
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/7-tela-tabuleiro-medio.unity
+    guid: 653bd2fa5716d3a41bd1c97221094193
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/7P-tela-parabens-medio.unity
+    guid: fb28ae0ce0cabaf4d8d633f16beacd18
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/7TN-tela-tente-novamente-medio.unity
+    guid: 43b1894d55dda4d4ba4c865bdfaa3fc0
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/8-tela-tabuleiro-medio.unity
+    guid: 60bfbeb8ddaa039448c4b91153b8f9f1
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/8P-tela-parabens-medio.unity
+    guid: 75de1cf9bdca9334b99c6b9859f7d1bd
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/8TN-tela-tente-novamente-medio.unity
+    guid: 31860bf88107197438cbba3d85429fa9
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/9-tela-tabuleiro-medio.unity
+    guid: 20e5ad21f52ee2746aaa8792cba68671
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/9P-tela-parabens-medio.unity
+    guid: 7097a865712ae5848864566b67e8dcd9
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/9TN-tela-tente-novamente-medio.unity
+    guid: 3ac8f97b88ae2a74893ae94496f79280
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/10-tela-tabuleiro-medio.unity
+    guid: 0c9d6c071abd4fc40b37665ef7f31b43
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/10P-tela-parabens-medio.unity
+    guid: a6dacfb235c550744abd1e5e47a8c305
+  - enabled: 1
+    path: Assets/Scenes/2_Medio/10TN-tela-tente-novamente-medio.unity
+    guid: d31d2e2a296dae84a9f98943cc58a92f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
