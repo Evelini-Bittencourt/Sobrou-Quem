@@ -32,8 +32,9 @@ public class ValidadorDesafio : MonoBehaviour
     [SerializeField] private string cenaParabens = "6-tela-parabens";
     [SerializeField] private string cenaTenteNovamente = "7-tela-tente-novamente";
 
-    [Header("Identificação da Carta")]
-    [Tooltip("Número da carta atual de 1 a 10")]
+    [Header("Identificação do Nível e Carta")]
+    [Tooltip("Ex: Facil, Medio, Dificil, MuitoDificil")]
+    [SerializeField] private string nomeDoNivel = "MuitoDificil"; 
     [SerializeField] private int numeroDaCarta = 1;
 
     public void VerificarVitoria()
@@ -80,9 +81,8 @@ public class ValidadorDesafio : MonoBehaviour
 
         if (acertouTudo)
         {
-            Debug.Log(">> VITORIA!");
-            // Salva que esta carta específica foi concluída
-            PlayerPrefs.SetInt("CartaConcluida_Especialista_" + numeroDaCarta, 1);
+            string chaveSave = $"CartaConcluida_{nomeDoNivel}_{numeroDaCarta}";
+            PlayerPrefs.SetInt(chaveSave, 1);
             PlayerPrefs.Save();
             SceneManager.LoadScene(cenaParabens);
         }

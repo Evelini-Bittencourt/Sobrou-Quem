@@ -140,6 +140,99 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/4_Muito-dificil/9TN-tela-tente-novamente-muito-dificil.unity
     guid: f76cf3e31e6600a4597bbd013062c69a
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/0-tela-fichas-dificil.unity
+    guid: 6d78b79f7cb1abc4c88e58dcf7e00217
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/1-tela-tabuleiro-dificil.unity
+    guid: fd58e2f490eb29546b03ccd0edceb8ba
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/1P-tela-parabens-dificil.unity
+    guid: 3523f00f8576ebe4ca6a186e107be4e4
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/1TN-tela-tente-novamente-dificil.unity
+    guid: 9958005c6ffb9fc4aa1ee452a5d56956
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/2-tela-tabuleiro-dificil.unity
+    guid: fbdb863c9a4c8b841af4c3f9c14e311c
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/2P-tela-parabens-dificil.unity
+    guid: f2bf61c454c1a0046b536fcabf2d130a
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/2TN-tela-tente-novamente-dificil.unity
+    guid: 8b8989185604ba74fbf274e41132d139
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/3-tela-tabuleiro-dificil.unity
+    guid: 60c1b7a6a7907d042a3103082f8a7fe5
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/3P-tela-parabens-dificil.unity
+    guid: 426a6b2498c33ff4b81ac6b51fdc790e
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/3TN-tela-tente-novamente-dificil.unity
+    guid: 1ccbdf9e16cf2e646955d1135656b4de
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/4-tela-tabuleiro-dificil.unity
+    guid: d12e138ffd998da409b74a4d75de2d5e
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/4P-tela-parabens-dificil.unity
+    guid: d14c5a79ebe3832499870e9ea946563b
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/4TN-tela-tente-novamente-dificil.unity
+    guid: c9310382852fb8c4cb19506bb8e1f3b3
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/5-tela-tabuleiro-dificil.unity
+    guid: 477679506eaf38f4fa35969d8614f3d3
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/5P-tela-parabens-dificil.unity
+    guid: 7b4c5d8dd5eac424e8ee81f22c63c445
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/5TN-tela-tente-novamente-dificil.unity
+    guid: 6c620a5b4f4bc79448e2adf64228ee6e
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/6-tela-tabuleiro-dificil.unity
+    guid: c3424ef83235fff4d852eef90b0dec1b
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/6P-tela-parabens-dificil.unity
+    guid: b69aa7b6aa0750d4e9d3fc67f4eca299
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/6TN-tela-tente-novamente-dificil.unity
+    guid: a7ffd731705555542b17d2a09f03d7c0
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/7-tela-tabuleiro-dificil.unity
+    guid: 42a6b37a2cbdb1643abbe606f215647d
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/7P-tela-parabens-dificil.unity
+    guid: a3deb1510ee6f364c8724eb6a09567a9
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/7TN-tela-tente-novamente-dificil.unity
+    guid: a695949405bee734f8891d221b89fa09
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/8-tela-tabuleiro-dificil.unity
+    guid: 69a1725e421137946872a2dd64d7bb05
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/8P-tela-parabens-dificil.unity
+    guid: cb3763d97c329914d8acb8c9ac3545ed
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/8TN-tela-tente-novamente-dificil.unity
+    guid: 5d719382d0975784bb6da750a90b03ca
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/9-tela-tabuleiro-dificil.unity
+    guid: f81f94a1663f54e4ea6dcd210e27687e
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/9P-tela-parabens-dificil.unity
+    guid: 43a441f6dc1d9d7449064fbf27e262f6
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/9TN-tela-tente-novamente-dificil.unity
+    guid: 26e0f41ab5469f747995f858eaefbe50
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/10-tela-tabuleiro-dificil.unity
+    guid: 90e543e5b0d5446479e28f0267e92ee3
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/10P-tela-parabens-dificil.unity
+    guid: b3f6f66589c70144dba86d047c1d1ed5
+  - enabled: 1
+    path: Assets/Scenes/3_Dificil/10TN-tela-tente-novamente-dificil.unity
+    guid: e3769eaffd5d62146bd7b5318b9549a4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

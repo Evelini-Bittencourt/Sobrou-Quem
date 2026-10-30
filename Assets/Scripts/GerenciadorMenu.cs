@@ -12,6 +12,9 @@ public class GerenciadorMenuEspecialista : MonoBehaviour
         public GameObject textInterrogacao;    // O objeto do texto com "?"
         public GameObject textDesafio;         // O objeto do texto com a meta (ex: 3 caracóis...)
     }
+    [Header("Configuração do Nível")]
+    [Tooltip("Digite o mesmo nome configurado no Validador (Ex: Facil, Medio, Dificil, MuitoDificil)")]
+    [SerializeField] private string nomeDoNivel = "MuitoDificil";
 
     [Header("Barra de Progresso")]
     [SerializeField] private Slider sliderProgresso;
@@ -37,8 +40,8 @@ public class GerenciadorMenuEspecialista : MonoBehaviour
         {
             int numeroCarta = i + 1;
             
-            // Verifica no PlayerPrefs se a carta foi concluída
-            bool estaConcluida = PlayerPrefs.GetInt("CartaConcluida_Especialista_" + numeroCarta, 0) == 1;
+            string chaveSave = $"CartaConcluida_{nomeDoNivel}_{numeroCarta}";
+            bool estaConcluida = PlayerPrefs.GetInt(chaveSave, 0) == 1;
 
             if (estaConcluida)
             {
@@ -71,13 +74,13 @@ public class GerenciadorMenuEspecialista : MonoBehaviour
         }
     }
 
-    [ContextMenu("Resetar Progresso Especialista")]
+    [ContextMenu("Resetar Progresso Deste Nível")]
     public void ResetarProgresso()
     {
         for (int i = 1; i <= 10; i++)
         {
-            PlayerPrefs.DeleteKey("CartaConcluida_Especialista_" + i);
+            PlayerPrefs.DeleteKey($"CartaConcluida_{nomeDoNivel}_{i}");
         }
         AtualizarInterfaceEProgresso();
     }
-}
+    }
