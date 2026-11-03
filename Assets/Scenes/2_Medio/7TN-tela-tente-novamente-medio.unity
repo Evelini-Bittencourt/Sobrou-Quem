@@ -1734,7 +1734,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "DIF\xCDCIL"
+  m_Text: "M\xC9DIO"
 --- !u!222 &1598627029
 CanvasRenderer:
   m_ObjectHideFlags: 0
