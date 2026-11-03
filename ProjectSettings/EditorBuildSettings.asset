@@ -326,6 +326,99 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2_Medio/10TN-tela-tente-novamente-medio.unity
     guid: d31d2e2a296dae84a9f98943cc58a92f
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/0-tela-fichas-facil.unity
+    guid: cce0e9df17073874ea03933412eb391d
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/1-tela-tabuleiro-facil.unity
+    guid: 130c8af70c7279d4e9949f64336ca8f6
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/1P-tela-parabens-facil.unity
+    guid: 00f46d61baf6f764b9199aac451b2858
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/1TN-tela-tente-novamente-facil.unity
+    guid: d631c4d916eb7894397af9a67427dc17
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/2-tela-tabuleiro-facil.unity
+    guid: 7a346ebade6f81b4887383e0e8a6b50b
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/2P-tela-parabens-facil.unity
+    guid: 04da414273ad24d44b8939d3e7e52aad
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/2TN-tela-tente-novamente-facil.unity
+    guid: 54735d7183ade7b4b933cd2d9b86747f
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/3-tela-tabuleiro-facil.unity
+    guid: bd1acd6c501f9d84ab2542010d0cf412
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/3P-tela-parabens-facil.unity
+    guid: 737df795575f4b441bfa2f8c37e964fc
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/3TN-tela-tente-novamente-facil.unity
+    guid: fb431d157de0b264c910cee3a2a8582a
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/4-tela-tabuleiro-facil.unity
+    guid: f9a440f3a8a2a5d43a37bdfd46ee899c
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/4P-tela-parabens-facil.unity
+    guid: 5ef8594917b980d4b9aba01d81870ea4
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/4TN-tela-tente-novamente-facil.unity
+    guid: 20a923f8516654742ad58579626d0a57
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/5-tela-tabuleiro-facil.unity
+    guid: a8a112eef5895054fae23dfe95619bd4
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/5P-tela-parabens-facil.unity
+    guid: eea263a0f4fed714a98fdac48842d340
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/5TN-tela-tente-novamente-facil.unity
+    guid: 48dc8874dd9daf7449ba84ea98aeb547
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/6-tela-tabuleiro-facil.unity
+    guid: 13ebd5ba4a6522b4a8043f68252d82c5
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/6P-tela-parabens-facil.unity
+    guid: 83c4a60efc617f54fae2cb8d82f770d0
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/6TN-tela-tente-novamente-facil.unity
+    guid: 346a7634edb83e449a7cadc882b8fe0c
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/7-tela-tabuleiro-facil.unity
+    guid: 640199d8805ec0749a2e872eaef3f0c5
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/7P-tela-parabens-facil.unity
+    guid: 4022bd04b6ca50343b4d369a417dccae
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/7TN-tela-tente-novamente-facil.unity
+    guid: fffb7cb7127e94f4b9e52a08f13bf3d7
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/8-tela-tabuleiro-facil.unity
+    guid: 2c2bfd2e7922b60499b73db72d2f9fef
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/8P-tela-parabens-facil.unity
+    guid: d445ca48ffb59c841afa20008995d37a
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/8TN-tela-tente-novamente-facil.unity
+    guid: 3b65b568a7e16ba4cbd5ad2c240e6656
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/9-tela-tabuleiro-facil.unity
+    guid: 848b4b00a01f2bc43b76e4b518342306
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/9P-tela-parabens-facil.unity
+    guid: e25f1ffb7af07c545a800a184debee2d
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/9TN-tela-tente-novamente-facil.unity
+    guid: 633b54ffe64bb0d44879c46d6df697df
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/10-tela-tabuleiro-facil.unity
+    guid: 1129d3d52ad61394b95fe4567f2f6547
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/10P-tela-parabens-facil.unity
+    guid: 0b2f10c692d0ed946a2bc39074fae006
+  - enabled: 1
+    path: Assets/Scenes/1_Facil/10TN-tela-tente-novamente-facil.unity
+    guid: 1af1549652fdf254d9810b3813f92bb1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
