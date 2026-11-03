@@ -5090,8 +5090,8 @@ MonoBehaviour:
   - {fileID: 918356893}
   - {fileID: 500927375}
   - {fileID: 695580213}
-  cenaParabens: 4P-tela-parabens-muito-dificil
-  cenaTenteNovamente: 4TN-tela-tente-novamente-muito-dificil
+  cenaParabens: 4P-tela-parabens-medio
+  cenaTenteNovamente: 4TN-tela-tente-novamente-medio
   nomeDoNivel: Medio
   numeroDaCarta: 4
 --- !u!4 &1563621753

@@ -5478,8 +5478,8 @@ MonoBehaviour:
   - {fileID: 918356893}
   - {fileID: 500927375}
   - {fileID: 695580213}
-  cenaParabens: 10P-tela-parabens-muito-dificil
-  cenaTenteNovamente: 10TN-tela-tente-novamente-muito-dificil
+  cenaParabens: 10P-tela-parabens-dificil
+  cenaTenteNovamente: 10TN-tela-tente-novamente-dificilil
   nomeDoNivel: Dificil
   numeroDaCarta: 10
 --- !u!4 &1563621753

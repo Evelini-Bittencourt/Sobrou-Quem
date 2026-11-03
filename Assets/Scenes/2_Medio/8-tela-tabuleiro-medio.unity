@@ -5284,8 +5284,8 @@ MonoBehaviour:
   - {fileID: 918356893}
   - {fileID: 500927375}
   - {fileID: 695580213}
-  cenaParabens: 8P-tela-parabens-muito-dificil
-  cenaTenteNovamente: 8TN-tela-tente-novamente-muito-dificil
+  cenaParabens: 8P-tela-parabens-medio
+  cenaTenteNovamente: 8TN-tela-tente-novamente-medio
   nomeDoNivel: Medio
   numeroDaCarta: 8
 --- !u!4 &1563621753

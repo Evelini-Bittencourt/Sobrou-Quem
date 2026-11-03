@@ -5285,7 +5285,7 @@ MonoBehaviour:
   - {fileID: 500927375}
   - {fileID: 695580213}
   cenaParabens: 10P-tela-parabens-muito-dificil
-  cenaTenteNovamente: 10TN-tela-tente-novamente-muito-dificil
+  cenaTenteNovamente: 10TN-tela-tente-novamente-medio
   nomeDoNivel: Medio
   numeroDaCarta: 10
 --- !u!4 &1563621753

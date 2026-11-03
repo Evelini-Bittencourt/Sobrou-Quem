@@ -5284,8 +5284,8 @@ MonoBehaviour:
   - {fileID: 918356893}
   - {fileID: 500927375}
   - {fileID: 695580213}
-  cenaParabens: 7P-tela-parabens-muito-dificil
-  cenaTenteNovamente: 7TN-tela-tente-novamente-muito-dificil
+  cenaParabens: 7P-tela-parabens-dificil
+  cenaTenteNovamente: 7TN-tela-tente-novamente-dificil
   nomeDoNivel: Dificil
   numeroDaCarta: 7
 --- !u!4 &1563621753
