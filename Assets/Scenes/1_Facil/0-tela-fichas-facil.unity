@@ -862,7 +862,7 @@ MonoBehaviour:
     textDesafio: {fileID: 1898343703}
   - botaoCarta: {fileID: 1755395678}
     painelFundo: {fileID: 2084097551}
-    textInterrogacao: {fileID: 0}
+    textInterrogacao: {fileID: 90355395}
     textDesafio: {fileID: 1855909911}
   - botaoCarta: {fileID: 1566889060}
     painelFundo: {fileID: 1639041780}

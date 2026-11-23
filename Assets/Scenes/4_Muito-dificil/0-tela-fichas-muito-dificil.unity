@@ -1305,6 +1305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd352dfbc497d2542b0b96cb9523ff1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GerenciadorMenuEspecialista
+  nomeDoNivel: MuitoDificil
   sliderProgresso: {fileID: 1302040906}
   textoProgresso: {fileID: 1038913660}
   corCartaoOculto: {r: 0.8, g: 0.78431374, b: 0.74509805, a: 1}
@@ -1340,7 +1341,7 @@ MonoBehaviour:
     textDesafio: {fileID: 1898343703}
   - botaoCarta: {fileID: 1755395678}
     painelFundo: {fileID: 2084097551}
-    textInterrogacao: {fileID: 0}
+    textInterrogacao: {fileID: 90355395}
     textDesafio: {fileID: 1855909911}
   - botaoCarta: {fileID: 1566889060}
     painelFundo: {fileID: 1639041780}
