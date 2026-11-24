@@ -5798,7 +5798,7 @@ MonoBehaviour:
   - animal: 0
     quantidadeEsperada: 3
   - animal: 2
-    quantidadeEsperada: 3
+    quantidadeEsperada: 2
   - animal: 3
     quantidadeEsperada: 1
   - animal: 4
@@ -6246,7 +6246,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 2
 --- !u!222 &1686122785
 CanvasRenderer:
   m_ObjectHideFlags: 0

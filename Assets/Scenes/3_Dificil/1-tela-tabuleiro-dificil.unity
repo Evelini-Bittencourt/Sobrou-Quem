@@ -1447,7 +1447,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: 3
 --- !u!222 &294803028
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5919,7 +5919,7 @@ MonoBehaviour:
   - animal: 4
     quantidadeEsperada: 2
   - animal: 0
-    quantidadeEsperada: 4
+    quantidadeEsperada: 3
   pontosSnap:
   - {fileID: 1183264439}
   - {fileID: 918356893}

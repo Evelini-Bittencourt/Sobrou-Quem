@@ -2360,7 +2360,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0
-  m_Text: 2 BORBOLETAS
+  m_Text: 1 BORBOLETAS
 --- !u!222 &184625807
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3925,7 +3925,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0
-  m_Text: 1 JOANINHA
+  m_Text: 2 JOANINHA
 --- !u!222 &320306767
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12754,7 +12754,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.7
-  m_Text: "3 ABELHAS,\r\n3 JOANINHAS, \n1 BORBOLETA \nE 1 SAPO \r\n"
+  m_Text: "3 ABELHAS,\r\n2 JOANINHAS, \n1 BORBOLETA \nE 1 SAPO \r\n"
 --- !u!222 &1049316160
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15290,7 +15290,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0
-  m_Text: 3 JOANINHAS
+  m_Text: 2 JOANINHAS
 --- !u!222 &1214085689
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16509,7 +16509,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0
-  m_Text: "5 CARAC\xD3IS"
+  m_Text: "4 CARAC\xD3IS"
 --- !u!222 &1303419834
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19459,7 +19459,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.7
-  m_Text: "4 CARAC\xD3IS,\r\n2 JOANINHAS,\r\n2 BORBOLETAS E\r\n1 SAPO "
+  m_Text: "4 CARAC\xD3IS,\r\n2 JOANINHAS,\r\n2 BORBOLETAS \nE 1 SAPO "
 --- !u!222 &1491457702
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23860,7 +23860,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.7
-  m_Text: "5 CARAC\xD3IS, \n2 ABELHAS, \r\n1 JOANINHA E \n1 BORBOLETA\r\n"
+  m_Text: "4 CARAC\xD3IS, \n2 ABELHAS, \r\n2 JOANINHA E \n1 BORBOLETA\r\n"
 --- !u!222 &1855909914
 CanvasRenderer:
   m_ObjectHideFlags: 0
